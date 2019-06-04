@@ -1,4 +1,5 @@
-# ipa-metadata [![Build Status](http://img.shields.io/travis/matiassingers/ipa-metadata.svg?style=flat-square)](https://travis-ci.org/matiassingers/ipa-metadata) [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/ipa-metadata.svg?style=flat-square)](https://gemnasium.com/matiassingers/ipa-metadata) [![Coverage Status](http://img.shields.io/coveralls/matiassingers/ipa-metadata.svg?style=flat-square)](https://coveralls.io/r/matiassingers/ipa-metadata)
+# ipa-metadata 修复版 package cert-downloader fs.exists => fs.existsSync
+# ipa-metadata-fixed [![Build Status](http://img.shields.io/travis/matiassingers/ipa-metadata.svg?style=flat-square)](https://travis-ci.org/matiassingers/ipa-metadata) [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/ipa-metadata.svg?style=flat-square)](https://gemnasium.com/matiassingers/ipa-metadata) [![Coverage Status](http://img.shields.io/coveralls/matiassingers/ipa-metadata.svg?style=flat-square)](https://coveralls.io/r/matiassingers/ipa-metadata)
 > extract metadata and provisioning information about an .ipa file
 
 Inspired by the `ipa info` in [`shenzhen`](https://github.com/nomad/shenzhen/blob/master/lib/shenzhen/commands/info.rb), but I wanted more general metadata information about the `.ipa`.
@@ -17,7 +18,7 @@ See ["Checking the Entitlements of an .ipa file"](https://developer.apple.com/li
 ## Install
 
 ```sh
-$ npm install --save ipa-metadata
+$ npm install --save ipa-metadata-fixed
 ```
 
 
