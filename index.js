@@ -3,7 +3,7 @@
 var async = require('async');
 var plist = require('simple-plist');
 var decompress = require('decompress-zip');
-var provisioning = require('provisioning');
+var provisioning = require('./lib/provisioning');
 var entitlements = require('entitlements');
 
 var rimraf = require('rimraf');
